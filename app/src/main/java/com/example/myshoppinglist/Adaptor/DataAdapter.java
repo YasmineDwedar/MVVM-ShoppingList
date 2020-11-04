@@ -64,7 +64,7 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
                 xtype = list.get(position).getType();
                 xamount = list.get(position).getAmount();
                 xnote = list.get(position).getNote();
-                Toast.makeText(context, list.get(position).getId(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(context, list.get(position).getId(), Toast.LENGTH_SHORT).show();
                 displayCustomUpadateDialog();
             }
         });
